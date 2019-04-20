@@ -13,7 +13,7 @@ part 2: Prometheus Setup using Ansible.
 
 part 3: Grafana Setup using Ansible.
 
-part 4: Graphite: Scalable Realtime Graphing Setup using Ansible.
+part 4: Graphite Setup using Ansible.
 
 # Part 1
 Linux OS Setup using VirtualBox provider for Terraform. Relevant script files are attached to the repository.
@@ -147,6 +147,7 @@ Ansible command: grafana-playbook.yml
 
 
 # Part 4: 
+Graphite Setup using Ansible.
 Graphite: Scalable Realtime Graphing Setup using Ansible. Relevant playbook files are attached to the repository.
 
 Ansible - Graphite: Scalable Realtime Graphing
