@@ -3,6 +3,18 @@
 [![Build Status](https://travis-ci.org/terra-farm/terraform-provider-virtualbox.svg?branch=master)](https://travis-ci.org/terra-farm/terraform-provider-virtualbox)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fterra-farm%2Fterraform-provider-virtualbox.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fterra-farm%2Fterraform-provider-virtualbox?ref=badge_shield)
 
+# Simple Monitoring Stack 
+  we would like to monitor our applications and infrastructure. To do so, we must construct a monitoring stack.
+This contains 4 main parts.
+
+part 1: Linux OS Setup using VirtualBox provider for Terraform.
+
+part 2: Prometheus Setup using Ansible.
+
+part 3: Grafana Setup using Ansible.
+
+part 4: Graphite: Scalable Realtime Graphing Setup using Ansible.
+
 # Part 1
 Linux OS Setup using VirtualBox provider for Terraform. Relevant script files are attached to the repository.
 
@@ -135,7 +147,7 @@ Ansible command: grafana-playbook.yml
 
 
 # Part 4: 
-Ansible - Graphite: Scalable Realtime Graphing Setup. Relevant playbook files are attached to the repository.
+Graphite: Scalable Realtime Graphing Setup using Ansible. Relevant playbook files are attached to the repository.
 
 Ansible - Graphite: Scalable Realtime Graphing
 ------------------
